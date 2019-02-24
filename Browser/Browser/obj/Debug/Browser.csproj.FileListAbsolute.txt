@@ -1,0 +1,15 @@
+C:\Users\abdim\source\repos\Browser\Browser\obj\Debug\Browser.csprojAssemblyReference.cache
+C:\Users\abdim\source\repos\Browser\Browser\obj\Debug\MainWindow.g.cs
+C:\Users\abdim\source\repos\Browser\Browser\obj\Debug\App.g.cs
+C:\Users\abdim\source\repos\Browser\Browser\obj\Debug\Browser_MarkupCompile.cache
+C:\Users\abdim\source\repos\Browser\Browser\obj\Debug\Browser_MarkupCompile.lref
+C:\Users\abdim\source\repos\Browser\Browser\bin\Debug\Browser.exe.config
+C:\Users\abdim\source\repos\Browser\Browser\bin\Debug\Browser.exe
+C:\Users\abdim\source\repos\Browser\Browser\bin\Debug\Browser.pdb
+C:\Users\abdim\source\repos\Browser\Browser\obj\Debug\MainWindow.baml
+C:\Users\abdim\source\repos\Browser\Browser\obj\Debug\Browser.g.resources
+C:\Users\abdim\source\repos\Browser\Browser\obj\Debug\Browser.Properties.Resources.resources
+C:\Users\abdim\source\repos\Browser\Browser\obj\Debug\Browser.csproj.GenerateResource.cache
+C:\Users\abdim\source\repos\Browser\Browser\obj\Debug\Browser.csproj.CoreCompileInputs.cache
+C:\Users\abdim\source\repos\Browser\Browser\obj\Debug\Browser.exe
+C:\Users\abdim\source\repos\Browser\Browser\obj\Debug\Browser.pdb
