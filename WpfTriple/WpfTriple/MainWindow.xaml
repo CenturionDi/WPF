@@ -1,0 +1,58 @@
+﻿<Window x:Class="WpfTriple.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfTriple"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl HorizontalAlignment="Left" Height="419" VerticalAlignment="Top" Width="792">
+            <TabItem Header="TextEditor">
+                <Grid>
+                    <Menu Height="25" VerticalAlignment="Top">
+
+                        <MenuItem Header="Edit" >
+                            <MenuItem Header="Copy" Click="CopyClick" ></MenuItem>
+                            <MenuItem Header="Paste" Click="PasteClick"></MenuItem>
+                            <MenuItem Header="Cut" Click="CutClick"></MenuItem>
+                        </MenuItem>
+                    </Menu>
+                    <RichTextBox Name="RichText" HorizontalAlignment="Left" Height="366" Margin="0,25,0,0" VerticalAlignment="Top" Width="786">
+                        <FlowDocument>
+                            <Paragraph>
+                                <Run Text=""/>
+                            </Paragraph>
+                        </FlowDocument>
+                    </RichTextBox>
+
+
+                </Grid>
+
+
+            </TabItem>
+            <TabItem Header="Theme">
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="Log in" HorizontalAlignment="Center" Margin="340,57,324,0" VerticalAlignment="Top" Width="122"/>
+                    <Label Content="Login:" HorizontalAlignment="Left" Margin="279,88,0,0" VerticalAlignment="Top" Width="94"/>
+                    <Label Content="Password:" HorizontalAlignment="Left" Margin="279,119,0,0" VerticalAlignment="Top" Width="94"/>
+                    <TextBox Name="log" HorizontalAlignment="Left" Height="18" Margin="342,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <TextBox Name="pass" HorizontalAlignment="Left" Height="18" Margin="342,123,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <Button Content="Enter" HorizontalAlignment="Left" Margin="342,164,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+
+
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="TabItem">
+                <Canvas>
+                    <Button Name="Catch" MouseMove="Move_mouse" Canvas.Left="337" Canvas.Top="255" Height="44" Width="78" >Catch me!"</Button>
+                </Canvas>
+            </TabItem>
+
+
+
+        </TabControl>
+
+    </Grid>
+</Window>
